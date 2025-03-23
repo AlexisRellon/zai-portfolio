@@ -41,9 +41,9 @@
           </div>
           
           <!-- Floating elements -->
-          <div class="absolute top-1/4 left-1/4 w-16 h-16 bg-neutral/10 rounded-full animate-float-slow"></div>
-          <div class="absolute bottom-1/3 right-1/4 w-10 h-10 bg-primary/10 rounded-full animate-float-medium"></div>
-          <div class="absolute top-1/2 right-1/3 w-8 h-8 bg-secondary/10 rounded-full animate-float-fast"></div>
+          <div class="absolute top-1/4 -left-[15%] w-16 h-16 bg-neutral/10 rounded-full animate-float-slow"></div>
+          <div class="absolute bottom-1/3 -right-[5%] w-10 h-10 bg-primary/10 rounded-full animate-float-medium"></div>
+          <div class="absolute top-1/2 right-[10%] w-8 h-8 bg-secondary/10 rounded-full animate-float-fast"></div>
         </div>
       </div>
     </div>
