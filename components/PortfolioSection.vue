@@ -29,7 +29,7 @@
           v-for="project in filteredProjects" 
           :key="project.id"
           class="portfolio-item relative group overflow-hidden rounded-xl shadow-md"
-          data-aos="fade-up"
+          data-aos="zoom-in"
           :data-aos-delay="project.id * 100">
           
           <!-- Project Image -->
@@ -231,13 +231,5 @@ function closeModal() {
 <style scoped>
 .btn-primary {
   @apply inline-flex items-center px-6 py-3 rounded-lg bg-primary text-background font-medium transition-all hover:bg-primary/90 hover:shadow-lg;
-}
-
-.portfolio-item {
-  transition: transform 0.3s ease;
-}
-
-.portfolio-item:hover {
-  transform: translateY(-10px);
 }
 </style>
