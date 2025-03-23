@@ -20,6 +20,11 @@
     overflow-x: hidden;
   }
 
+  ::selection {
+    background: var(--primary);
+    color: var(--background);
+  }
+
   html {
     scroll-behavior: smooth;
   }
