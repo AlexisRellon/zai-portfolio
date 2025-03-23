@@ -10,6 +10,21 @@ export default defineNuxtConfig({
     'nuxt-aos'
   ],
 
+  aos: {
+    global: true,
+    disable: false,
+    startEvent: 'DOMContentLoaded',
+    once: true,
+    useClassNames: true,
+    initClassName: 'aos-init',
+    duration: 800,
+    easing: 'ease-in-out',
+    offset: 120,
+    delay: 300,
+    mirror: true,
+    anchorPlacement: 'top-bottom',
+  },
+
   tailwindcss: {
     config: {
       theme: {
