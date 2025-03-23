@@ -1,5 +1,6 @@
 <template>
   <div>
+    <SpeedInsights />
     <NuxtRouteAnnouncer />
     <WelcomeSplashScreen />
     <NuxtPage />
@@ -46,3 +47,7 @@
     background: var(--secondary);
   }
 </style>
+
+<script setup lang="ts">
+import { SpeedInsights } from "@vercel/speed-insights/nuxt"
+</script>
